@@ -69,12 +69,23 @@ public class Main {
 
     public static void task6 () {
         System.out.println ("Задача 6");
-        //код для задачи
+        var oneBoxer = 78.2;
+        var twoBoxer = 82.7;
+        var totalWeight = oneBoxer + twoBoxer;
+        System.out.println("Общий вес двух бойцов " + totalWeight + " кг!");
+        var difference = twoBoxer - oneBoxer;
+        System.out.println("Разница между весами бойцов " + difference +" кг!");
     }
 
     public static void task7 () {
         System.out.println ("Задача 7");
-        //код для задачи
+        var oneBoxer = 78.2;
+        var twoBoxer = 82.7;
+        var difference = oneBoxer - twoBoxer;
+        System.out.println("Разница между весами бойцов " + difference +" кг!");
+
+        var overLoad = twoBoxer % oneBoxer;
+        System.out.println("Разница между весами бойцов " + overLoad +" кг!");
     }
 
     public static void task8 () {
