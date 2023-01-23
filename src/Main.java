@@ -90,6 +90,15 @@ public class Main {
 
     public static void task8 () {
         System.out.println ("Задача 8");
-        //код для задачи
+        var hours = 640;
+        var personal = 8;
+        var workers = hours / personal;
+        System.out.println("Всего работников в компании - " + workers + " человек.");
+
+        workers = workers + 94;
+        var nuwWorckers = workers * personal;
+        System.out.println("Если в компании работает " + workers + " человек, то всего " + nuwWorckers + " часов работы может быть поделено между сотрудниками");
+
+
     }
 }
