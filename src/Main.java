@@ -57,7 +57,14 @@ public class Main {
 
     public static void task5 () {
         System.out.println ("Задача 5");
-        //код для задачи
+        var frog = 3.5;
+        System.out.println(frog);
+        frog = frog * 10;
+        System.out.println(frog);
+        frog = frog / 3.5;
+        System.out.println(frog);
+        frog = frog + 4;
+        System.out.println(frog);
     }
 
     public static void task6 () {
